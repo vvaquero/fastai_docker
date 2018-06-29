@@ -75,11 +75,14 @@ RUN /bin/bash -c "\
 
 RUN echo export CUDA_DEVICE_ORDER="PCI_BUS_ID" >> ~/.bashrc
 
+# These are added extra, already j0 in port 8890
 RUN echo "alias j8=\"ln -sf /data /code/fastai/courses/dl1/ && source activate fastai && CUDA_VISIBLE_DEVICES=0 jupyter notebook --port=8888 --allow-root\"" >> ~/.bashrc
 RUN echo "alias jupyter_notebook_GPU_0_PORT_8888=j8" >> ~/.bashrc
 
 RUN echo "alias j9=\"ln -sf /data /code/fastai/courses/dl1/ && source activate fastai && CUDA_VISIBLE_DEVICES=1 jupyter notebook --port=8889 --allow-root\"" >> ~/.bashrc
 RUN echo "alias jupyter_notebook_GPU_1_PORT_8889=j9" >> ~/.bashrc
+
+#RUN echo "alias colors='PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00;33m\]$(parse_git_branch)\[\033[00m\]\$";"
 
 # https://software.intel.com/en-us/mkl
 RUN /bin/bash -c "\
