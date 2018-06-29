@@ -30,7 +30,7 @@ A Jupyter server will now be running in a fastai environment with all of fastai'
 
 ## Setup
 
-1\. Got to the folder when you want to work and define your code and data paths where you would like to have the persistent files:
+1\. Go to the folder when you want to work and define your code and data paths where you would like to have the persistent files:
 
 ```
 CODE=$(pwd)/code
