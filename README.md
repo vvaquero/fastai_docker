@@ -1,15 +1,15 @@
 # Docker for fast.ai 2018 courses
 
-NOTE: shamelessly based on [this!] https://github.com/MattKleinsmith/dockerfiles/tree/master/fastai
+NOTE: shamelessly based on [this!](https://github.com/MattKleinsmith/dockerfiles/tree/master/fastai)
 
-NOTE2: you could also check [this other nice post] https://nji-syd.github.io/2018/03/26/up-and-running-with-fast-ai-and-docker/ 
+NOTE2: you could also check [this other nice post](https://nji-syd.github.io/2018/03/26/up-and-running-with-fast-ai-and-docker/)
 
 2018-06-30: The Docker image works with [the lesson1 notebook](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson1.ipynb).
 
 
 ## Why Docker
 
-Check out [perfect Docker tutorial for data science](https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5).
+Check out this [perfect Docker tutorial for data science](https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5).
 
 ## Assumptions
 
