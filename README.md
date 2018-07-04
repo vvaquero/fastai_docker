@@ -24,7 +24,8 @@ Check out this [perfect Docker tutorial for data science](https://towardsdatasci
 After following the setup:
 
 1. Enter `fastai` into a terminal.
-2. Enter `j8` into the container's terminal that popped up as a result.
+2. Enter `j8` into the container's terminal that popped up as a result.  
+* To open a new terminal connected to the docker: `docker exec -it <container> bash`  
 
 A Jupyter server will now be running in a fastai environment with all of fastai's dependencies.
 
