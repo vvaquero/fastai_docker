@@ -50,6 +50,8 @@ unzip -q $DATA/dogscats.zip -d $DATA
 3\. Spawn a docker container by entering the following in a terminal:
 
 `docker run --runtime=nvidia --init -it -p 8888:8888 -v $CODE:/code -v $DATA:/data -w="/code/fastai" vvaquero/fastai`
+ 
+NOTE: at the moment the latest docker hosted in the cloud has the 'base' tag, so the last command should be `vvaquero/fastai:base`
 
 4\. Start the Jupyter notebook server by entering the following bashrc created ALIAS into the container's terminal:
 
